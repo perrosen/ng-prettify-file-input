@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('ngPrettifyFileInputProjectApp')
+        .module('ngPrettifyFileInputProjectApp', [])
         .directive('ngPrettifyFileInput', ngPrettifyFileInput);
 
     ngPrettifyFileInput.$inject = [];
