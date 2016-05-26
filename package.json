@@ -1,0 +1,29 @@
+{
+  "name": "ngpfi",
+  "version": "1.0.0",
+  "description": "Angular Prettify File Input",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.7.0",
+    "grunt-contrib-copy": "0.8.2",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.1.0",
+    "load-grunt-tasks": "^3.4.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perrosen/ng-prettify-file-input"
+  },
+  "author": "Per Rosen",
+  "bugs": {
+    "url": "https://github.com/perrosen/ng-prettify-file-input/issues"
+  },
+  "homepage": "https://github.com/perrosen/ng-prettify-file-input#readme"
+}

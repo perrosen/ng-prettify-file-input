@@ -1,0 +1,17 @@
+{
+  "name": "ngpfi",
+  "description": "Angular Prettify File Input",
+  "main": "",
+  "authors": [
+    "Per Rosen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/perrosen/ng-prettify-file-input",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

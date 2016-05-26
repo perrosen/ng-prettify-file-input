@@ -1,0 +1,7 @@
+.idea
+.tmp
+.sass-cache
+.DS_Store
+
+node_modules/
+.tmp/

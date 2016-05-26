@@ -1,0 +1,53 @@
+
+$ng-pfi-background: #437EB1;
+$ng-pfi-background-hover: darken($ng-pfi-background, 10%);
+$ng-pfi-border: darken($ng-pfi-background, 5%);
+$ng-pfi-border-hover: darken($ng-pfi-background, 25%);
+$ng-pfi-label-color: #FFF;
+$ng-pfi-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$ng-pfi-vertical-padding: 6px;
+$ng-pfi-horizontal-padding: 12px;
+$ng-pfi-font-size: 14px;
+
+.ng-pfi {
+    > input[type="file"] {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+
+        & + label {
+            color: $ng-pfi-label-color;
+            font-family: $ng-pfi-font-family;
+            max-width: 80%;
+            font-size: $ng-pfi-font-size;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+            display: inline-block;
+            overflow: hidden;
+            padding: $ng-pfi-vertical-padding $ng-pfi-horizontal-padding;
+            background-color: $ng-pfi-background;
+            border: 1px solid $ng-pfi-border;
+
+            > .glyphicon, > .fa, > i {
+                margin-right: 5px;
+            }
+        }
+
+        &:focus + label,
+        &.has-focus + label {
+            outline: 1px dotted #000;
+            outline: -webkit-focus-ring-color auto 5px;
+            background-color: $ng-pfi-background-hover;
+            border-color: $ng-pfi-border-hover;
+        }
+
+        & + label:hover {
+            background-color: $ng-pfi-background-hover;
+            border-color: $ng-pfi-border-hover;
+        }
+    }
+}
