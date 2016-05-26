@@ -1,17 +1,25 @@
 {
-  "name": "ngpfi",
-  "description": "Angular Prettify File Input",
-  "main": "",
+  "name": "ng-prettify-file-input",
+  "description": "Overrides the broser default file input styles with a lightweight Angular directive.",
   "authors": [
-    "Per Rosen"
+    "Per Rosen <per.rosen@gmail.com>"
+  ],
+  "keywords": [
+    "angular",
+    "forms"
   ],
   "license": "MIT",
   "homepage": "https://github.com/perrosen/ng-prettify-file-input",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perrosen/ng-prettify-file-input/issues"
+  },
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    ".idea",
+    ".tmp",
+    ".sass-cache",
+    ".DS_Store",
+    "node_modules/",
+    ".tmp/"
   ]
 }

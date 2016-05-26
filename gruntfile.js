@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    '.tmp/styles/ng-pfi.css': 'src/styles/ng-pfi.scss'
+                    '.tmp/styles/ng-prettify-file-input.css': 'src/styles/ng-prettify-file-input.scss'
                 }
             }
         },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 ]
             },
             dist: {
-                src: '.tmp/styles/ng-pfi.css'
+                src: '.tmp/styles/ng-prettify-file-input.css'
             }
         },
         uglify: {
