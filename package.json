@@ -1,6 +1,6 @@
 {
   "name": "ngpfi",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Angular Prettify File Input",
   "cacheDirectories": [
     "node_modules"

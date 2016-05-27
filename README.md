@@ -13,7 +13,7 @@ This is an Angular implementation with a few modifications of the tutorial.
 
 ## Usage
 - Include the provided script file and css file. Either use the compiled files in the dist folder or include the SASS and original JS files in the src folder.
-- Include the ngPrettifyFileInputProjectApp module in your app dependenices.
+- Include the ngPrettifyFileInput module in your app dependenices.
 
 The directive is attached to a container that contains an file input field and a label. It is important the label is defined after the input. It can handle the multiple attribute.
 ```
