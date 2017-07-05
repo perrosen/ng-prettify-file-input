@@ -1,4 +1,6 @@
 # ng-prettify-file-input
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/perrosen/ng-prettify-file-input.svg)](https://greenkeeper.io/)
 A light weight directive for overriding the default file input styles.
 
 Based upon an excellent tutorial by [Osvaldas Valutis](http://osvaldas.info/) at (Tympanus.net)[http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/].
